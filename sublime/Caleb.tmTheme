@@ -98,6 +98,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Invalid - Illegal</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#eee</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#aaa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS Storage&#x2f;Keyword</string>
 			<key>scope</key>
 			<string>source.js storage, source.js keyword</string>

@@ -14,6 +14,8 @@
 	"indent_subsequent_lines": false,
 	"theme": "Primer.sublime-theme",
 	"theme_primer_tab_active_blue": true,
-	"trim_automatic_white_space": false,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": true,
 	"word_wrap": true
 }

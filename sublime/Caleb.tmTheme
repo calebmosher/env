@@ -170,6 +170,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS Regex</string>
+			<key>scope</key>
+			<string>source.js string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a71d5d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS Brackets</string>
 			<key>scope</key>
 			<string>source.js meta.brace, source.js punctuation.definition.parameters.begin, source.js punctuation.definition.parameters.end, source.js meta.group.braces.round.function.arguments</string>

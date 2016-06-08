@@ -34,7 +34,7 @@ $ xcode-select --install
 You may want to change permissions on `/usr/local` after this step for future `brew` installs.
 
 ```bash
-$ sudo chown -R $USER /usr/local
+$ sudo chown -R $(whoami) /usr/local
 ```
 
 **Install Consolas** (if necessary)

@@ -69,20 +69,22 @@ $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/lo
 
 Google for Python script. Restart Sublime.
 
-**Install Primer Theme**
-
-* ⌘ + ⇧ + P
-* "Install Package"
-* "Primer"
-
 **Link Preferences and Syntax Theme**
 
 ```bash
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 $ ln -s ~/env/sublime/Caleb.tmTheme Caleb.tmTheme
 $ ln -s ~/env/sublime/Preferences.sublime-settings Preferences.sublime-settings
+```
+
+**Install Packages**
+
+Use ⌘ + ⇧ + P, then "Install Package".
+
+* Primer Theme
+* Babel
+* SCSS
 
 ## Other
 
 * Install Spectacle ([spectacleapp.com](http://spectacleapp.com))
-*

@@ -84,6 +84,7 @@ Use ⌘ + ⇧ + P, then "Install Package".
 * Primer Theme
 * Babel
 * SCSS
+* Unicode Character Highlighter
 
 ## Other
 

@@ -511,6 +511,28 @@
 				<string>#183691</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML Entity</string>
+			<key>scope</key>
+			<string>source.yaml entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#795da3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Value</string>
+			<key>scope</key>
+			<string>source.yaml string.quoted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#183691</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>26786979-843B-4FE2-BCB6-4FCEC6F8FB58</string>

@@ -524,7 +524,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON Value</string>
+			<string>YAML String</string>
 			<key>scope</key>
 			<string>source.yaml string.quoted</string>
 			<key>settings</key>

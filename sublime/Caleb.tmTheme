@@ -161,7 +161,7 @@
 			<key>name</key>
 			<string>JS String</string>
 			<key>scope</key>
-			<string>source.js string.quoted</string>
+			<string>source.js string.quoted, source.js string.interpolated, source.js keyword.other.template</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

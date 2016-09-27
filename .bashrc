@@ -4,6 +4,10 @@ alias ll="ls -l"
 alias lla="ls -la"
 alias renpm="rm -rf node_modules/ && npm install"
 
+# thefuck
+eval "$(thefuck --alias)"
+eval "$(thefuck --alias FUCK)"
+
 # git
 source /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
 source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh

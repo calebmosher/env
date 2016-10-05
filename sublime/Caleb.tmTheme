@@ -557,6 +557,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby Constant</string>
+			<key>scope</key>
+			<string>source.ruby constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby Variable</string>
 			<key>scope</key>
 			<string>source.ruby variable.other.readwrite.global</string>

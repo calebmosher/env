@@ -46,11 +46,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFDDDD</string>
+				<string></string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#DD3333</string>
 			</dict>
 		</dict>
 		<dict>
@@ -61,11 +61,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#DDFFDD</string>
+				<string></string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#339933</string>
 			</dict>
 		</dict>
 		<dict>

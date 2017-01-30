@@ -3,6 +3,7 @@ alias ls="ls -G"
 alias ll="ls -l"
 alias lla="ls -la"
 alias renpm="rm -rf node_modules/ && npm install"
+alias chrome="open -a 'Google Chrome'"
 
 # thefuck
 eval "$(thefuck --alias)"

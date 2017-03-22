@@ -3,6 +3,8 @@ alias ls="ls -G"
 alias ll="ls -l"
 alias lla="ls -la"
 alias renpm="rm -rf node_modules/ && npm install"
+alias chrome="open -a 'Google Chrome'"
+alias code="code --js-flags='--harmony-regexp-lookbehind'"
 
 # thefuck
 eval "$(thefuck --alias)"

@@ -1,0 +1,36 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontFamily": "Consolas",
+	"editor.fontSize": 13,
+	"editor.wordWrap": true,
+	"editor.autoClosingBrackets": false,
+	"editor.emptySelectionClipboard": false,
+	"window.reopenFolders": "all",
+	"window.restoreFullscreen": true,
+	"window.fullScreenZenMode": false,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"explorer.openEditors.visible": 0,
+	"git.enableLongCommitWarning": false,
+	"editor.wrappingIndent": "none",
+	"html.format.wrapLineLength": 0,
+	"terminal.integrated.fontSize": 13,
+	"files.associations": {
+		"*.ejs": "ejs",
+		"*.xjs": "javascript"
+	},
+	"auto-close-tag.SublimeText3Mode": true,
+	"editor.scrollBeyondLastLine": false,
+	"files.watcherExclude": {
+		"**/package": true,
+		"**/node_modules": true
+	},
+	"editor.acceptSuggestionOnEnter": false,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.renderIndentGuides": true,
+	"workbench.colorTheme": "Cal",
+	"workbench.iconTheme": "vs-seti",
+	"editor.minimap.enabled": true,
+	"editor.renderWhitespace": "none",
+	"editor.tabSize": 2
+}

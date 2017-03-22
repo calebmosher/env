@@ -1,0 +1,26 @@
+{
+    "name": "theme-cal",
+    "displayName": "Cal",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "CalMosher",
+	"icon": "dubstep_cat.png",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cal",
+				"uiTheme": "vs",
+                "path": "./themes/Cal.tmTheme"
+            }
+        ]
+    },
+	"__metadata": {
+		"publisherDisplayName": "Cal Mosher"
+	}
+}

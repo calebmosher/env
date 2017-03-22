@@ -491,9 +491,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON String</string>
+			<string>JSON Base Properties</string>
 			<key>scope</key>
-			<string>source.json string.quoted</string>
+			<string>source.json meta.structure.dictionary.json string.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

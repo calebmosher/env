@@ -249,6 +249,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>EJS Tags</string>
+			<key>scope</key>
+			<string>text.ejs.percentsign text.html.basic keyword.operator.delimiter.ejs, punctuation.definition.js.begin.ejs, punctuation.definition.js.end.ejs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0086b3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>HTML Brackets</string>
 			<key>scope</key>
 			<string>text.html punctuation.definition.tag, text.xml punctuation.definition.tag</string>

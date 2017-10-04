@@ -2,7 +2,6 @@
 {
 	"editor.fontFamily": "Consolas",
 	"editor.fontSize": 13,
-	"editor.insertSpaces": false,
 	"editor.wordWrap": true,
 	"editor.autoClosingBrackets": false,
 	"editor.emptySelectionClipboard": false,
@@ -32,5 +31,6 @@
 	"workbench.colorTheme": "Cal",
 	"workbench.iconTheme": "vs-seti",
 	"editor.minimap.enabled": true,
-	"editor.renderWhitespace": "none"
+	"editor.renderWhitespace": "none",
+	"editor.tabSize": 2
 }

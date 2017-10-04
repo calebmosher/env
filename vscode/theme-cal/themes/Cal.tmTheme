@@ -7,7 +7,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Caleb</string>
+	<string>Cal</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -31,11 +31,11 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, punctuation.definition.comment, token.comment.block.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999</string>
+				<string>#999999</string>
 			</dict>
 		</dict>
 		<dict>
@@ -104,16 +104,16 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eee</string>
+				<string>#eeeeee</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#aaa</string>
+				<string>#aaaaaa</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Storage&#x2f;Keyword</string>
+			<string>JS Storage and Keyword</string>
 			<key>scope</key>
 			<string>source.js storage, source.js keyword</string>
 			<key>settings</key>
@@ -121,7 +121,7 @@
 				<key>foreground</key>
 				<string>#a71d5d</string>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -187,7 +187,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -209,7 +209,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000</string>
+				<string>#000000</string>
 				<key>fontStyle</key>
 				<string></string>
 			</dict>
@@ -222,7 +222,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#555</string>
+				<string>#555555</string>
 			</dict>
 		</dict>
 		<dict>
@@ -233,12 +233,12 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f00</string>
+				<string>#ff0000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Support Function&#x2f;Constant</string>
+			<string>JS Support Function and Constant</string>
 			<key>scope</key>
 			<string>source.js support.function, source.js support.constant</string>
 			<key>settings</key>
@@ -251,11 +251,11 @@
 			<key>name</key>
 			<string>EJS Tags</string>
 			<key>scope</key>
-			<string>text.ejs.percentsign text.html.basic keyword.operator.delimiter.ejs, punctuation.definition.js.begin.ejs, punctuation.definition.js.end.ejs</string>
+			<string>source.js.embedded punctuation.section</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0086b3</string>
+				<string>#2296bd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -266,7 +266,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -317,7 +317,7 @@
 			<key>name</key>
 			<string>CSS Selectors</string>
 			<key>scope</key>
-			<string>source.css meta.selector, source.scss entity</string>
+			<string>source.css meta.selector, source.css.scss entity</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -328,7 +328,7 @@
 			<key>name</key>
 			<string>CSS Property</string>
 			<key>scope</key>
-			<string>source.css meta.property-name, source.scss meta.property-name</string>
+			<string>source.css meta.property-name, source.css.scss meta.property-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -339,7 +339,7 @@
 			<key>name</key>
 			<string>CSS Value</string>
 			<key>scope</key>
-			<string>source.css meta.property-value, source.scss meta.property-value, source.scss support.function</string>
+			<string>source.css meta.property-value, source.css.scss meta.property-value, source.css.scss support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -350,7 +350,7 @@
 			<key>name</key>
 			<string>CSS At-Rule Value</string>
 			<key>scope</key>
-			<string>source.scss meta.at-rule support.function, source.scss meta.at-rule support.constant</string>
+			<string>source.css.scss meta.at-rule support.function, source.css.scss meta.at-rule support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -361,7 +361,7 @@
 			<key>name</key>
 			<string>CSS String</string>
 			<key>scope</key>
-			<string>source.css string.quoted, source.scss string.quoted, source.scss meta.at-rule variable.parameter.url, source.scss meta.at-rule constant, source.scss meta.at-rule keyword.other</string>
+			<string>source.css string.quoted, source.css.scss string.quoted, source.css.scss meta.at-rule variable.parameter.url, source.css.scss meta.at-rule constant, source.css.scss meta.at-rule keyword.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -372,7 +372,7 @@
 			<key>name</key>
 			<string>CSS At-Rule</string>
 			<key>scope</key>
-			<string>source.css meta.at-rule, source.scss meta.at-rule</string>
+			<string>source.css meta.at-rule, source.css.scss meta.at-rule</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -383,11 +383,11 @@
 			<key>name</key>
 			<string>PHP Tags</string>
 			<key>scope</key>
-			<string>source.php punctuation.section.embedded</string>
+			<string>text.html.php punctuation.section.embedded</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f00</string>
+				<string>#ff0000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -398,7 +398,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#06f</string>
+				<string>#0066ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -409,18 +409,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00f</string>
+				<string>#0000ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Storage&#x2f;Keyword</string>
+			<string>PHP Storage and Keyword</string>
 			<key>scope</key>
 			<string>source.php storage, source.php keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#060</string>
+				<string>#006600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -431,7 +431,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -442,7 +442,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f00</string>
+				<string>#ff0000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -453,7 +453,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c00</string>
+				<string>#cc0000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -464,7 +464,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -475,7 +475,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -486,7 +486,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -497,14 +497,14 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON Base Properties</string>
+			<string>JSON String</string>
 			<key>scope</key>
-			<string>source.json meta.structure.dictionary.json string.quoted</string>
+			<string>source.json support.type.property-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -546,7 +546,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby Storage&#x2f;Keyword</string>
+			<string>Ruby Storage and Keyword</string>
 			<key>scope</key>
 			<string>source.ruby storage, source.ruby keyword</string>
 			<key>settings</key>
@@ -574,7 +574,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -629,7 +629,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold</string>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -640,7 +640,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000</string>
+				<string>#000000</string>
 				<key>fontStyle</key>
 				<string></string>
 			</dict>
@@ -653,7 +653,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#555</string>
+				<string>#555555</string>
 			</dict>
 		</dict>
 		<dict>
@@ -664,12 +664,12 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f00</string>
+				<string>#ff0000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby Support Function&#x2f;Constant</string>
+			<string>Ruby Support Function and Constant</string>
 			<key>scope</key>
 			<string>source.ruby support.function, source.ruby support.constant</string>
 			<key>settings</key>
@@ -695,6 +695,6 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.light.caleb</string>
+	<string>theme.light.cal</string>
 </dict>
 </plist>

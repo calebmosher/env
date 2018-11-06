@@ -22,3 +22,7 @@ export PATH=$PATH:/usr/local/lib/node_modules
 # nvm
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+# upp
+alias run-container="make clean && make run"
+alias run-local="cd ~/upp/upp-docker/upp-db && run-container & cd ../upp-db-migration && run-container & cd ../upp-api && run-container & cd ../upp-api-client && run-container &"

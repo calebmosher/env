@@ -19,11 +19,15 @@ $ ln -s ~/env/.bash_profile .bash_profile
 $ ln -s ~/env/.bashrc .bashrc
 ```
 
-**Install Xcode**
+**Install Xcode Command Line Tools**
 
 ```bash
 $ xcode-select --install
 ```
+
+Can also download directly from (need to login with Apple ID):
+
+https://developer.apple.com/download/more/
 
 **Install Homebrew**
 
@@ -52,6 +56,43 @@ $ cd
 $ mkdir .nvm
 $ . .bashrc
 ```
+
+## VS Code
+
+Google for DMG.
+
+**Activate `code`**
+
+Path should be added in .bashrc already, but if not, add this line:
+```bash
+export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
+```
+
+**Link `settings.json` and `theme-cal`**
+
+Run the setup script:
+```bash
+$ ~/env/setup-vscode.bash
+```
+
+Or run these lines individually:
+```bash
+$ ln -s ~/env/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+$ ln -s ~/env/vscode/theme-cal ~/.vscode/extensions/theme-cal
+```
+
+**Install Extensions**
+
+Search for these in Extensions:
+
+* Auto Close Tag (Jun Han)
+* Git Lens (Eric Amodio)
+* node-readme (bengreenier)
+* Ruby (Peng Lv)
+* Sublime Babel (Josh Peng)
+* Sublime Text Keymap and Settings Importer (Microsoft)
+* TextMate Languages (Ben Hockley)
+* Whitepsace+ (David Houchin)
 
 ## Sublime
 

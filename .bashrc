@@ -16,8 +16,9 @@ source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 
 # env
 export PS1="\[\e[0;37m\]\w \u\[\e[m\]\[\e[0;33m\]\$(echo \$(__git_ps1) | sed 's/[[:space:]]//g')\[\e[m\]\[\e[0;36m\]\$\[\e[m\] "
-export EDITOR="subl -w"
+export EDITOR="code"
 export PATH=$PATH:/usr/local/lib/node_modules
+export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
 
 # nvm
 export NVM_DIR=~/.nvm

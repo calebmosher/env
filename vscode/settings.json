@@ -32,5 +32,11 @@
 	"workbench.iconTheme": "vs-seti",
 	"editor.minimap.enabled": true,
 	"editor.renderWhitespace": "none",
-	"editor.tabSize": 2
+  "editor.tabSize": 2,
+	"scss.lint.emptyRules": "ignore",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"window.zoomLevel": 0,
+	"sublimeTextKeymap.promptV3Features": true,
+	"editor.dragAndDrop": false,
+	"javascript.suggestionActions.enabled": false
 }

@@ -1,0 +1,25 @@
+{
+  "name": "nl.ejs",
+  "description": "Nest Labs EJS Visual Studio Code extension",
+  "author": "Maximo Cudich-Sieburger",
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "ejs-include-regex": "^1.0.0",
+    "rewire": "^2.5.2",
+    "syntax-error": "^1.1.6",
+    "vscode-languageserver": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.52",
+    "typescript": "^2.1.5"
+  },
+  "scripts": {
+    "compile": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc -p .",
+    "watch": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc --watch -p ."
+  }
+}

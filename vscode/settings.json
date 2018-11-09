@@ -2,8 +2,8 @@
 {
 	"editor.fontFamily": "Consolas",
 	"editor.fontSize": 13,
-	"editor.wordWrap": true,
-	"editor.autoClosingBrackets": false,
+	"editor.wordWrap": "on",
+	"editor.autoClosingBrackets": "never",
 	"editor.emptySelectionClipboard": false,
 	"window.reopenFolders": "all",
 	"window.restoreFullscreen": true,
@@ -25,7 +25,7 @@
 		"**/package": true,
 		"**/node_modules": true
 	},
-	"editor.acceptSuggestionOnEnter": false,
+	"editor.acceptSuggestionOnEnter": "off",
 	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.renderIndentGuides": true,
 	"workbench.colorTheme": "Cal",

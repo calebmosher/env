@@ -4,6 +4,9 @@
 	"editor.fontSize": 13,
 	"editor.wordWrap": "on",
 	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingQuotes": "never",
+	"html.autoClosingTags": false,
+	"javascript.autoClosingTags": false,
 	"editor.emptySelectionClipboard": false,
 	"window.reopenFolders": "all",
 	"window.restoreFullscreen": true,
@@ -38,5 +41,8 @@
 	"window.zoomLevel": 0,
 	"sublimeTextKeymap.promptV3Features": true,
 	"editor.dragAndDrop": false,
-	"javascript.suggestionActions.enabled": false
+	"javascript.suggestionActions.enabled": false,
+	"gitlens.settings.mode": "advanced",
+	"gitlens.currentLine.scrollable": false,
+	"gitlens.hovers.currentLine.over": "line"
 }
